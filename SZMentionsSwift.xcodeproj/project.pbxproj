@@ -215,7 +215,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB0403D11C44A017000904DB /* Build configuration list for PBXNativeTarget "SZMentionsSwift" */;
 			buildPhases = (
-				DB83882B22467BEC00F9D8C8 /* SwiftFormat */,
 				DB0403B81C44A017000904DB /* Sources */,
 				DB0403B91C44A017000904DB /* Frameworks */,
 				DB0403BA1C44A017000904DB /* Headers */,
@@ -307,24 +306,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		DB83882B22467BEC00F9D8C8 /* SwiftFormat */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = SwiftFormat;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/scripts/swiftformat\" \"${SRCROOT}\"\n";
-		};
 		DB83882C22467D5F00F9D8C8 /* SwiftFormat */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
