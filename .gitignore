@@ -24,3 +24,11 @@ Carthage/
 # in the App.xcodeproj directory.
 # This ensures the latest dependencies are used.
 Pods/
+
+# Swift Package
+/.build
+/Packages
+/*.xcodeproj
+.swiftpm
+.netrc
+
